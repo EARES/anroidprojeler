@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">spner2</string>
+    <array name="Renkler">
+
+        <item name="Beyaz"></item>
+        <item name="Siyah"></item>
+        <item name="Kırmızı"></item>
+        <item name="Mavi"></item>
+
+    </array>
+</resources>

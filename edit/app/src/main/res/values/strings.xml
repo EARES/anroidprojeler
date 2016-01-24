@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">edit</string>
+    <array name="cihazlar">
+        <item>ios</item>
+        <item>android</item>
+        <item>windowsphone</item>
+        <item>blackbery</item>
+        <item>diğer</item>
+
+    </array>
+</resources>

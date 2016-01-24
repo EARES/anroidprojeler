@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">deneme</string>
+    <string name="action_settings">Ayarlar</string>
+    <color name="rengim">#004D40</color>
+    <color name="arkaplan">#009688</color>
+    <color name="pres">#00BFA5</color>
+</resources>

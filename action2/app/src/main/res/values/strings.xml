@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">action2</string>
+    <string name="heello">hello</string>
+    <string name="html">
+
+        <![CDATA[<b>kalın yazı</b><i>italik yazı</i><u>altı çizili</u><a><font color=#32cd32>renkli yazı</a>]]]>
+    </string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dosya Yükle"
+            android:id="@+id/yukle"
+            android:layout_weight="1"
+            android:onClick="onButtonClick"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kaydet"
+            android:text="Dosya Kaydet"
+            android:layout_weight="1"
+            android:onClick="onButtonClick"/>
+        </LinearLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/veri"
+        android:gravity="top"
+        android:layout_weight="1"
+        android:typeface="monospace"/>
+    </LinearLayout>

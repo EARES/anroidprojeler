@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.erem.data.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alertle"
+        android:id="@+id/btnAlert"
+        android:layout_below="@+id/txtalert"
+        android:layout_alignLeft="@+id/btnAra"
+        android:layout_alignStart="@+id/btnAra" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtalert"
+        android:hint="alert"
+        android:textSize="50dp"
+        android:layout_below="@+id/btnAra"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Array"
+        android:id="@+id/btnAray"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Array Sil"
+        android:id="@+id/btnSil"
+        android:layout_below="@+id/btnAray"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kopyala"
+        android:id="@+id/btnKopyala"
+        android:layout_below="@+id/btnSil"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/araedit"
+        android:layout_below="@+id/btnEleman"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ara"
+        android:id="@+id/btnAra"
+        android:layout_below="@+id/araedit"
+        android:layout_alignLeft="@+id/btnSil"
+        android:layout_alignStart="@+id/btnSil" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elaman Sayısı Göster"
+        android:id="@+id/btnEleman"
+        android:layout_below="@+id/btnKopyala"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageButton"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ileri"
+        android:layout_alignLeft="@+id/btnEleman"
+        android:layout_alignStart="@+id/btnEleman"
+        android:layout_alignRight="@+id/btnEleman"
+        android:layout_alignEnd="@+id/btnEleman" />
+
+</RelativeLayout>

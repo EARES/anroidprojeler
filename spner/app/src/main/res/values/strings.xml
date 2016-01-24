@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">spner</string>
+    <array name="Takimlar">
+
+        <item name="GS"/>
+        <item name="FB"/>
+        <item name="BJK"/>
+        <item name="TS"/>
+        <item name="Diger"/>
+
+
+    </array>
+</resources>

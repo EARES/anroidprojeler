@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">oo</string>
+    <color name="arka">#000000</color>
+    <color name="buton">#00a</color>
+    <color name="pres">#00f</color>
+    <string-array name="Konum">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="Renkler">
+        <item>Ana</item>
+        <item>Kırmızı</item>
+        <item>Siyah</item>
+        <item>Beyaz</item>
+        <item>Gri</item>
+    </string-array>
+</resources>

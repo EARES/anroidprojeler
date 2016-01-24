@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">listwiev</string>
+    <array name="iller">
+
+        <item name="Kocaeli"></item>
+        <item name="Istanbul"></item>
+        <item name="Ankara"></item>
+        <item name="Mersin"></item>
+        <item name="Izmir"></item>
+        <item name="Manisa"></item>
+        <item name="Trabzon"></item>
+        <item name="Konya"></item>
+        <item name="Edirne"></item>
+        <item name="Sinop"></item>
+        <item name="Isparta"></item>
+        <item name="Eskişehir"></item>
+
+    </array>
+</resources>

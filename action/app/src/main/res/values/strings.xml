@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">action</string>
+    <array name="Adlar">
+
+
+        <item>Mehmet</item>
+        <item>Veli</item>
+        <item>Berkay</item>
+        <item>Apo</item>
+        <item>İso</item>
+        <item>Emre</item>
+
+
+    </array>
+</resources>

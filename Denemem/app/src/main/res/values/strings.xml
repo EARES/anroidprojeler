@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Denemem</string>
+    <array name="Cihazlar">
+        <item>Samsung</item>
+        <item>Nokia</item>
+        <item>Sony</item>
+        <item>Iphone</item>
+        <item>LG</item>
+    </array>
+</resources>

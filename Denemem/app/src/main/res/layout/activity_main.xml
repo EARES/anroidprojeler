@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.erem.denemem.MainActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgm"
+        android:src="@drawable/ileri"
+        android:background="@drawable/ileri"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal Toast"
+        android:id="@+id/tst"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Özel Toast"
+        android:id="@+id/special"
+        android:layout_alignRight="@+id/imgm"
+        android:layout_alignEnd="@+id/imgm" />
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/auto"
+        android:layout_below="@+id/tst"
+        android:layout_alignParentLeft="true"
+        android:completionThreshold="1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="72dp"
+        android:hint="auto" />
+
+    <MultiAutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/multi"
+        android:layout_centerVertical="true"
+        android:completionThreshold="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="multi" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getir"
+        android:id="@+id/btn"
+        android:layout_alignBottom="@+id/imgm"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed"
+        android:layout_above="@+id/btn"
+        android:layout_alignRight="@+id/tst"
+        android:layout_alignEnd="@+id/tst"
+        android:hint="yaz bişey getiriyim" />
+
+</RelativeLayout>

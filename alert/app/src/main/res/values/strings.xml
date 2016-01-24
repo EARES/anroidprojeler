@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">alert</string>
+    <array name="dersler">
+        <item>Matematik</item>
+        <item>Biyoloji</item>
+        <item>Yabanci Dil</item>
+        <item>Kimya</item>
+        <item>Fizik</item>
+    </array>
+</resources>

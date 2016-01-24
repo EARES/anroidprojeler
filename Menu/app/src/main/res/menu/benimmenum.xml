@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sec1"
+        android:title="Seçenek 1"></item>
+
+    <item android:title="Çıkış"
+        android:id="@+id/sec2"
+        ></item>
+
+</menu>
